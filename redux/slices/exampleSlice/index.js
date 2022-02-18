@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const initialState = { test: "Hello world" };
+const initialState = { phrase: "Hello world" };
 
 const exampleSlice = createSlice({
     name: "example",
